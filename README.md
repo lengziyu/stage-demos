@@ -13,7 +13,9 @@
 - webpack       //管理js、查找依赖
 
 
-###2 fis3+requirejs+jquery+jquery插件
+<br>
+
+###2. fis3+requirejs+jquery+jquery插件
 
 #####用法：
 - 请确保你已安装fis3；
