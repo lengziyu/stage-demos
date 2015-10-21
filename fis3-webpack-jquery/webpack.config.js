@@ -11,10 +11,11 @@ module.exports = {
 
     plugins: [
     new webpack.ProvidePlugin({
+      //设置全局jquery
         $: "jquery",
         jQuery: "jquery",
         "window.jQuery": "jquery"
     }),
-     new webpack.optimize.CommonsChunkPlugin('vendor', './bulid/vendor.js')//这是妮第三方库打包生成的文件
+     new webpack.optimize.CommonsChunkPlugin('vendor', './bulid/vendor.js')//这是第三方库打包生成的文件
     ]
 };
