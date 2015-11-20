@@ -1,0 +1,32 @@
+/*-------清除默认样式
+------------------------------*/
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body,tt{
+    font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB",sans-serif;
+}
+blockquote, body, dd, dir, dl, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, input, legend, menu, ol, p, pre, tbody, td, textarea, tfoot, th, thead, ul {
+    margin: 0px;
+    padding: 0px;
+}
+a, body {
+    color: #555;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    &:focus{
+        outline: none;
+    }
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 100;
+}
+ul li{
+    list-style: none;
+}
+img{
+  border:none;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>fis3-amd</title>
+  <link rel="stylesheet" href="src/styles/sass/index.scss">
+  <script data-main="./src/scripts/bulid/main" src="./src/scripts/libs/require.js"></script>
+</head>
+<body>
+  <h1></h1>
+  <p> Hello, World. </p>
+  <button id="btn">load async js</button>
+
+  <div class="tab">
+  <ul class="menu">
+    <li class="active">按钮1</li>
+    <li>按钮2</li>
+    <li>按钮3</li>
+  </ul>
+  <ul class="main">
+    <li class="active"><img src="src/images/01.jpg"></li>
+    <li><img class="lazy" data-src="src/images/02.jpg"></li>
+    <li><img class="lazy" data-src="src/images/03.jpg"></li>
+  </ul>
+</div>
+</body>
+</html>
