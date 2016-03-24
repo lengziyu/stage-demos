@@ -35,5 +35,5 @@
 
 ###3. fis3+components
 
-![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+![image](https://github.com/lengziyu/stage-demos/tree/master/readme-imgs/stage-fis3-comp.png)
 
