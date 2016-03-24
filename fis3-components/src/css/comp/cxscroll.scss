@@ -1,0 +1,15 @@
+.hj-cxscroll{
+  .box{
+    overflow:hidden;
+    width:600px;
+  }
+  .list{
+    overflow:hidden;
+    width:9999px;
+  }
+  .list li{
+    float:left;
+    width:150px;
+    height:36px;
+  }
+}

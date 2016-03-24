@@ -1,0 +1,49 @@
+/*	--------------------------------------------------
+	pop
+	-------------------------------------------------- */
+
+	.reveal-modal-bg {
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		background: #000;
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0;
+		}
+
+	.reveal-modal {
+		visibility: hidden;
+		top: 50%;
+	  margin-top: -100px;
+		left: 50%;
+		margin-left: -300px;
+		width: 520px;
+		position: absolute;
+		z-index: 101;
+		}
+	.RModal-close-icon{
+		position: absolute;
+		right: 5px;
+		z-index: 2;
+		top: 5px;
+		cursor: pointer;
+	}
+  .modal-header{
+    background-color: #fff;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+  }
+  .modal-body{
+    padding: 15px;
+    background-color: #fff;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+  }
+	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 420px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}

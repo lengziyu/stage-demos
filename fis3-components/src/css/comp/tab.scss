@@ -1,0 +1,16 @@
+.hj-tab .tab-navs .tab-nav{
+  cursor: pointer;
+}
+.hj-tab .tab-navs .tab-nav.active{
+
+}
+
+.tab-contents{
+
+}
+.tab-contents .tab-content{
+  display: none;
+}
+.tab-contents .tab-content.active{
+  display: block;
+}

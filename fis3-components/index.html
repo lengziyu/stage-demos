@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>组件化</title>
+  <link rel="stylesheet" href="src/css/page/index.scss">
+  <script data-main="src/js/bulid/main" src="src/js/libs/require.js"></script>
+</head>
+<body>
+  <div class="container bs-docs-container">
+    <br><br><br>
+
+    <div id="myTab" class="row">
+      <div class="col-md-12">
+        <h3>tab切换组件</h3>
+        <div class="hj-tab">
+          <ul class="nav nav-tabs tab-navs">
+            <li class="tab-nav active"><a>Home</a></li>
+            <li class="tab-nav"><a>Profile</a></li>
+            <li class="tab-nav"><a>Home</a></li>
+          </ul>
+          <div class="tab-contents">
+            <div class="tab-content active">
+              <p>1</p>
+            </div>
+            <div class="tab-content">
+              <p>2</p>
+            </div>
+            <div class="tab-content">
+              <p>3</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <div id="myUnslider" class="row">
+      <div class="col-md-12">
+        <h3>unslider轮播组件</h3>
+        <div class="hj-unslider">
+          <div class="unslider-main">
+            <ul class="slides">
+              <li><a href="" target="_blank"><img src="src/imgs/unslider/1.jpg"></a></li>
+              <li data-src="src/imgs/unslider/1.jpg"><a href="" target="_blank"><img class="lazyload" src=""></a></li>
+              <li data-src="src/imgs/unslider/1.jpg"><a href="" target="_blank"><img class="lazyload" src=""></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <div id="myPop" class="row">
+      <div class="col-md-12">
+        <h3>pop弹出组件</h3>
+        <div class="hj-pop">
+          <a data-reveal-id="myModal-mes1" data-animation="fade" class="btn btn-default">弹出事例1</a>
+          <a data-reveal-id="myModal-mes2" data-animation="fade" class="btn btn-default">弹出事例2</a>
+        </div>
+        <div id="myModal-mes1" class="reveal-modal medium">
+          <div class="modal-header">
+            <button type="button" class="close close-reveal-modal"><span>×</span></button>
+            <h4 class="modal-title" id="myLargeModalLabel">弹出标题1</h4>
+          </div>
+          <div class="modal-body">
+             这是一个弹出的事例1
+          </div>
+        </div>
+        <div id="myModal-mes2" class="reveal-modal large">
+          <div class="modal-header">
+            <button type="button" class="close close-reveal-modal"><span>×</span></button>
+            <h4 class="modal-title" id="myLargeModalLabel">弹出标题2</h4>
+          </div>
+          <div class="modal-body">
+             这是一个弹出的事例2
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <div id="myValidate" class="row">
+      <div class="col-md-12">
+        <h3>validate表单验证组件</h3>
+        <form class="form-horizontal hj-form" id="form">
+    			<div class="form-group">
+    				<label class="col-sm-2 control-label" for="username">用户名git222：</label>
+            <div class="col-sm-4">
+    				  <input class="form-control" type="text" name="username" id="username" placeholder="请输入用户名" />
+            </div>
+          </div>
+    			<div class="form-group">
+    				<label class="col-sm-2 control-label" for="number">手机号码：</label>
+            <div class="col-sm-4">
+    				  <input class="form-control" type="number" name="number" id="number" placeholder="请输入11位手机号码" />
+            </div>
+    			</div>
+    			<div class="form-group">
+    				<label class="col-sm-2 control-label" for="email">常用邮箱：</label>
+            <div class="col-sm-4">
+    				  <input class="form-control" type="email" name="email" id="email" placeholder="请输入您常用的邮箱" />
+            </div>
+    			</div>
+    			<div class="form-group">
+    				<label class="col-sm-2 control-label" for="password">设置密码：</label>
+            <div class="col-sm-4">
+    				  <input class="form-control" type="password" name="password" id="password" placeholder="请输入6-18位数字、字母或常用符号" />
+            </div>
+    			</div>
+    			<div class="form-group">
+    				<label class="col-sm-2 control-label" for="confirm-password">确认密码：</label>
+            <div class="col-sm-4">
+    				  <input class="form-control" type="password" name="confirm-password" id="confirm-password" placeholder="请再次输入密码" />
+            </div>
+    			</div>
+    			<div class="form-group">
+    				<label class="col-sm-2 control-label" for="url">博客地址：</label>
+            <div class="col-sm-4">
+    				  <input class="form-control" type="url" name="url" id="url" placeholder="请输入您的博客地址" />
+            </div>
+    			</div>
+    			<div class="form-group">
+    				<label class="col-sm-2 control-label" for="date">日期：</label>
+            <div class="col-sm-4">
+    				  <input class="form-control" type="date" name="date" id="date" placeholder="日期" />
+            </div>
+    			</div>
+    			<div class="form-group form-submit">
+    				<button class="btn btn-default submit" type="submit">立即注册</button>
+    			</div>
+    		</form>
+      </div>
+    </div>
+    <br>
+
+    <div id="myCxsroll" class="row">
+      <div class="col-md-12">
+        <h3>cxsroll滚动组件</h3>
+        <div class="hj-cxscroll">
+          <div class="box">
+            <ul class="list">
+              <li><img src="src/imgs/cxsroll/1.jpg" /></li>
+              <li><img src="src/imgs/cxsroll/2.jpg" /></li>
+              <li><img src="src/imgs/cxsroll/3.jpg" /></li>
+              <li><img src="src/imgs/cxsroll/4.jpg" /></li>
+              <li><img src="src/imgs/cxsroll/5.jpg" /></li>
+              <li><img src="src/imgs/cxsroll/6.jpg" /></li>
+              <li><img src="src/imgs/cxsroll/7.jpg" /></li>
+              <li><img src="src/imgs/cxsroll/8.jpg" /></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+
+    <div id="myScrollTo" class="row">
+      <div class="col-md-12">
+          <h3>scrollTo锚点滚动组件</h3>
+        <div class="hj-scrollTo">
+            <a class="btn btn-danger" href="#myTab">tab切换组件</a>
+            <a class="btn btn-default" href="#myUnslider">unslider轮播组件</a>
+            <a class="btn btn-primary" href="#myPop">pop弹出组件</a>
+            <a class="btn btn-success" href="#myValidate">validate表单验证组件</a>
+            <a class="btn btn-info" href="#myCxsroll">cxsroll滚动组件</a>
+            <a class="btn btn-link" href="#myScrollTo">scrollTo锚点滚动组件</a>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+</body>
+</html>
