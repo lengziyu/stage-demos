@@ -37,3 +37,5 @@
 
 ![image](https://raw.githubusercontent.com/lengziyu/stage-demos/master/readme-imgs/stage-fis3-comp.png)
 
+[demo](http://fenav.com/demos/fis3-components/)
+
