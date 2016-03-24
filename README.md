@@ -29,3 +29,11 @@
 #####功能：
 - fis3          //编译sass/less、压缩、打包、Browser自动刷新...
 - requirejs       //管理js、查找依赖
+
+
+<br>
+
+###3. fis3+components
+
+![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+
