@@ -52,9 +52,9 @@ fis.media('prod')
    optimizer: fis.plugin('png-compressor')
  });
  //开启MD5戳
- // fis.match('*.{js,scss,css,png,jpg}', {
- // 	useHash: true
- // });﻿
+  fis.match('*.{js,scss,css,png,jpg}', {
+  	useHash: true
+  });﻿
 
 
 //不加MD5戳
